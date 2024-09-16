@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add products</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="addProduct">
+        <form  onsubmit="addProduct(event)">
+            <h1>Add Products</h1>
+            <div class="title-product">
+                <input type="text" name="title" id="title" placeholder="title of product">
+            </div>
+            <div class="desc-product">
+                <input type="text" name="description" id="description" placeholder="description of product">
+            </div>
+            <div class="image-url-product">
+                <input type="text" name="image_url" id="image_url" placeholder="image url ">
+            </div>
+            <div class="catogory-product">
+                <input type="text" name="catogory" id="catogory" placeholder="catogory of product">
+            </div>
+            <div class="price-product">
+                <input type="text" name="price" id="price" placeholder="price of product">
+            </div>
+            <div class="rating-product">
+                <input type="text" name="rating" id="rating" placeholder="rating of product">
+            </div>
+            <div class="button-add">
+            <button type="submit">Add</button>
+            </div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
